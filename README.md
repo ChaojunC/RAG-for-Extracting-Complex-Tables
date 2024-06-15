@@ -80,7 +80,7 @@ json file for knowledge graph visualization
     ```
 
 ### Generated Knowledge Graph
-![knowledge graph visualization](./image/knowledge_graph.pdf)
+[knowledge graph visualization](./image/knowledge_graph.pdf)
 
 ### Note
 Previous method is not sufficient when handling complex table (previous vs llm). Have also tried out Github repos like nlmatics/nlm-ingestor,
