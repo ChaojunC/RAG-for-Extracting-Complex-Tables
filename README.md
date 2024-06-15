@@ -18,15 +18,19 @@ Create a Python pipeline that demonstrates document processing capabilities, foc
 **Output Example**: 
 Parsing complex table with llm. On the left is the input table while on the right is the llm output. Note the output is not perfect yet, but it's a significant improvement compare to traditional methods:
 
-<div style="display: flex; justify-content: center;">
-  <img src="./image/table_ori.png" alt="Image 1" style="width: 45%; margin-right: 5px;">
-  <img src="./image/llm_table.png" alt="Image 2" style="width: 45%; margin-left: 5px;">
-</div>
+Complex table:
+<figure>
+  <img src="./image/table_ori.png" alt="A description of the image" style="width:50%">
+</figure>
+
+Extracting complext table using llm
+<figure>
+  <img src="./image/llm_table.png" alt="A description of the image" style="width:50%">
+</figure>
 
 Extracting information from tables in pdf ("./document/Type_II_table.pdf") for generating knowledge graph
 <figure>
-  <img src="./image/llm_kg_table.png" alt="A description of the image" style="width:100%">
-  <figcaption>Extracting information from tables in pdf for generating knowledge graph</figcaption>
+  <img src="./image/llm_kg_table.png" alt="A description of the image" style="width:35%">
 </figure>
 
 #### 2. LLM Inference
@@ -38,9 +42,9 @@ Extracting information from tables in pdf ("./document/Type_II_table.pdf") for g
 **Description**: Conducts real-time Q&A across multiple documents using RAG and LLM. Can be used to extract information and identify connections between different documents. It can also serves as a tool for onboarding to swiftly familiarize new employees with the company or for quick internal search of comapny documents.
 
 **Output Example**: 
+Conducts real-time Q&A across multiple documents using RAG and LLM
 <figure>
-  <img src="./image/llm_q&a.jpg" alt="A description of the image" style="width:100%">
-  <figcaption>Conducts real-time Q&A across multiple documents using RAG and LLM</figcaption>
+  <img src="./image/llm_q&a.png" alt="A description of the image" style="width:70%">
 </figure>
 
 #### 3. Knowledge Graph Generation
@@ -50,10 +54,9 @@ Extracting information from tables in pdf ("./document/Type_II_table.pdf") for g
 **Description**: Contains the entire process and generates the json file for Knowledge Graph visualization at the end.
 
 **Output Example**: 
-
+json file for knowledge graph visualization
 <figure>
-  <img src="./image/llm_kg.jpg" alt="A description of the image" style="width:100%">
-  <figcaption>json file for knowledge graph visualization</figcaption>
+  <img src="./image/llm_kg.png" alt="A description of the image" style="width:35%">
 </figure>
 
 ### Usage
@@ -77,14 +80,21 @@ Extracting information from tables in pdf ("./document/Type_II_table.pdf") for g
     ```
 
 ### Generated Knowledge Graph
-![Process Diagram](.image/knowledge graph.pdf)
+![knowledge graph visualization](./image/knowledge_graph.pdf)
+<figure>
+  <img src="./image/knowledge_graph.pdf" alt="A description of the image" style="width:50%">
+</figure>
 
 ### Note
 Previous method is not sufficient when handling complex table (previous vs llm). Have also tried out Github repos like nlmatics/nlm-ingestor,
 nlmatics/llmsherpa, or Joshua-Yu/graph-rag for PDF parsing and table extraction as suggested.
 
-Example output of previous method:
-<div style="display: flex; justify-content: center;">
-  <img src="./image/table_ori2.png" alt="Image 1" style="width: 45%; margin-right: 5px;">
-  <img src="./image/extract_table.png" alt="Image 2" style="width: 45%; margin-left: 5px;">
-</div>
+Complext table
+<figure>
+  <img src="./image/table_ori2.png" alt="A description of the image" style="width:50%">
+</figure>
+
+Extracting complex table using previous method
+<figure>
+  <img src="./image/extract_table.png" alt="A description of the image" style="width:50%">
+</figure>
