@@ -14,16 +14,18 @@ Create a Python pipeline that demonstrates document processing capabilities, foc
 
 **File**: `llm_parse_table.py`  
 **Description**: Parses complex tables within PDF documents.
-**Output Example**: 
-Parsing complex table with llm:
-<figure>
-  <img src="./image/llm_table.jpg" alt="A description of the image" style="width:100%">
-  <figcaption>Parsing complex table with llm</figcaption>
-</figure>
 
-Extracting information from tables in pdf for generating knowledge graph
+**Output Example**: 
+Parsing complex table with llm. On the left is the input table while on the right is the llm output. Note the output is not perfect yet, but it's a significant improvement compare to traditional methods:
+
+<div style="display: flex; justify-content: center;">
+  <img src="./image/table_ori.png" alt="Image 1" style="width: 45%; margin-right: 5px;">
+  <img src="./image/llm_table.png" alt="Image 2" style="width: 45%; margin-left: 5px;">
+</div>
+
+Extracting information from tables in pdf ("./document/Type_II_table.pdf") for generating knowledge graph
 <figure>
-  <img src="./image/llm_kg_table.jpg" alt="A description of the image" style="width:100%">
+  <img src="./image/llm_kg_table.png" alt="A description of the image" style="width:100%">
   <figcaption>Extracting information from tables in pdf for generating knowledge graph</figcaption>
 </figure>
 
@@ -46,6 +48,7 @@ Extracting information from tables in pdf for generating knowledge graph
 
 **File**: `llm_main.py`  
 **Description**: Contains the entire process and generates the json file for Knowledge Graph visualization at the end.
+
 **Output Example**: 
 
 <figure>
@@ -64,22 +67,24 @@ Extracting information from tables in pdf for generating knowledge graph
     - Run `llm_multi_doc.py` to perform real-time Q&A and retrieve information.
       
     ```bash
-    python llm_multi_doc.py ```
+    python llm_multi_doc.py
+    ```
 3. **Knowledge Graph Visualization**:
     - Run the following command to visualize the generated knowledge graph inside folder kg-demo.
       
     ```bash
-    npm start ```
+    npm start
+    ```
 
 ### Generated Knowledge Graph
-![Process Diagram](.image/kg.pdf)
+![Process Diagram](.image/knowledge graph.pdf)
 
 ### Note
 Previous method is not sufficient when handling complex table (previous vs llm). Have also tried out Github repos like nlmatics/nlm-ingestor,
 nlmatics/llmsherpa, or Joshua-Yu/graph-rag for PDF parsing and table extraction as suggested.
 
 Example output of previous method:
-<figure>
-  <img src="./image/parse_table.jpg" alt="A description of the image" style="width:100%">
-  <figcaption>Previous method is not sufficient when handling complex table</figcaption>
-</figure>
+<div style="display: flex; justify-content: center;">
+  <img src="./image/table_ori2.png" alt="Image 1" style="width: 45%; margin-right: 5px;">
+  <img src="./image/extract_table.png" alt="Image 2" style="width: 45%; margin-left: 5px;">
+</div>
