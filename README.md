@@ -15,10 +15,17 @@ Create a Python pipeline that demonstrates document processing capabilities, foc
 **File**: `llm_parse_table.py`  
 **Description**: Parses complex tables within PDF documents.
 **Output Example**: 
-Parsing complex table:
+Parsing complex table with llm:
+<figure>
+  <img src="./image/llm_table.jpg" alt="A description of the image" style="width:100%">
+  <figcaption>Parsing complex table with llm</figcaption>
+</figure>
 
-
-Example table output for generating knowledge graph
+Extracting information from tables in pdf for generating knowledge graph
+<figure>
+  <img src="./image/llm_kg_table.jpg" alt="A description of the image" style="width:100%">
+  <figcaption>Extracting information from tables in pdf for generating knowledge graph</figcaption>
+</figure>
 
 #### 2. LLM Inference
 - **User Prompt Handling**: handle user prompts.
@@ -26,40 +33,53 @@ Example table output for generating knowledge graph
 - **Information Retrieval**: Retrieve relevant information from the ingested documents to include in the responses.
 
 **File**: `llm_multi_doc.py`  
-**Description**: Performs real-time Q&A on multiple documents, finds relationships between multiple documents, and can be used for onboarding to quickly get to know the company.
-**Output Example**: 
+**Description**: Conducts real-time Q&A across multiple documents using RAG and LLM. Can be used to extract information and identify connections between different documents. It can also serves as a tool for onboarding to swiftly familiarize new employees with the company or for quick internal search of comapny documents.
 
+**Output Example**: 
+<figure>
+  <img src="./image/llm_q&a.jpg" alt="A description of the image" style="width:100%">
+  <figcaption>Conducts real-time Q&A across multiple documents using RAG and LLM</figcaption>
+</figure>
 
 #### 3. Knowledge Graph Generation
 - **Knowledge Graph**: Generate a knowledge graph from the retrieved document evidence.
 
 **File**: `llm_main.py`  
-**Description**: Contains the entire process and generates the Knowledge Graph at the end.
+**Description**: Contains the entire process and generates the json file for Knowledge Graph visualization at the end.
 **Output Example**: 
+
+<figure>
+  <img src="./image/llm_kg.jpg" alt="A description of the image" style="width:100%">
+  <figcaption>json file for knowledge graph visualization</figcaption>
+</figure>
 
 ### Usage
 1. **Knowledge Graph Visualization**:
     - Run `llm_main.py` to parse tables from the PDF documents and generate knowledge graph.
+      
     ```bash
     python llm_main.py
     ```
 2. **LLM Inference**:
     - Run `llm_multi_doc.py` to perform real-time Q&A and retrieve information.
+      
     ```bash
-    python llm_multi_doc.py
-    ```
+    python llm_multi_doc.py ```
 3. **Knowledge Graph Visualization**:
     - Run the following command to visualize the generated knowledge graph inside folder kg-demo.
+      
     ```bash
-    npm start
-    ```
+    npm start ```
 
 ### Generated Knowledge Graph
-![Process Diagram](image.pdf)
+![Process Diagram](.image/kg.pdf)
 
 ### Note
 Previous method is not sufficient when handling complex table (previous vs llm). Have also tried out Github repos like nlmatics/nlm-ingestor,
 nlmatics/llmsherpa, or Joshua-Yu/graph-rag for PDF parsing and table extraction as suggested.
 
 Example output of previous method:
-
+<figure>
+  <img src="./image/parse_table.jpg" alt="A description of the image" style="width:100%">
+  <figcaption>Previous method is not sufficient when handling complex table</figcaption>
+</figure>
