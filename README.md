@@ -81,9 +81,6 @@ json file for knowledge graph visualization
 
 ### Generated Knowledge Graph
 ![knowledge graph visualization](./image/knowledge_graph.pdf)
-<figure>
-  <img src="./image/knowledge_graph.pdf" alt="A description of the image" style="width:50%">
-</figure>
 
 ### Note
 Previous method is not sufficient when handling complex table (previous vs llm). Have also tried out Github repos like nlmatics/nlm-ingestor,
