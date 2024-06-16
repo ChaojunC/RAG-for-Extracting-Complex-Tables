@@ -10,11 +10,11 @@ Create a Python pipeline that demonstrates document processing capabilities, foc
 - **Table Parsing**: Use the LLM to parse tables within the documents and extract structured data.
 - **Superscript Relations**: Relate superscripts in table columns to their references.
 
-**File**: `llm_parse_table.py`  
+**File**: `llm_parse_complex_table.py`  
 **Description**: Parses complex tables within PDF documents.
 
 **Output**: 
-On the left is the input table while on the right is the llm output for parsing complex table. Note that this llm approach is a significant improvement compare to traditional methods:
+The first image is the input table while the second image is the llm output for parsing complex table. Note that this llm approach is a significant improvement compare to traditional methods:
 
 Complex table:
 <figure>
@@ -26,7 +26,9 @@ Extracting complext table using llm
   <img src="./image/llm_table.png" alt="A description of the image" style="width:75%">
 </figure>
 
-Extracting information from tables in pdf ("./document/Type_II_table.pdf") for generating knowledge graph
+**File**: `llm_parse_pdf.py`  
+**Description**: Extracting information from tables in pdf ("./document/Type_II_table.pdf") for generating knowledge graph.
+
 <figure>
   <img src="./image/llm_kg_table.png" alt="A description of the image" style="width:35%">
 </figure>
@@ -58,7 +60,7 @@ json file for knowledge graph visualization
 </figure>
 
 ### Usage
-1. **Knowledge Graph Visualization**:
+1. **Knowledge Graph json file Generation**:
     - Run `llm_main.py` to parse tables from the PDF documents and generate knowledge graph.
       
     ```bash
