@@ -1,0 +1,482 @@
+Title: **Summary Logical Record Layouts for Identification and Verification Transactions**
+This table provides a summary representation of all Identification and Verification transactions.
+
+### Table D-1: Summary of Logical Record Layouts for Identification and Verification Transactions
+Type: AMN
+2.001 LEN is 1
+2.002 IDC is 1
+2.005 RET is 1
+2.006 ATN is 0..1
+2.007 SCO is 0..9
+2.009 OCA is 0..1
+2.017 MNU is 0..4
+2.018 NAM is 1, check superscript reference 4
+2.021 CTZ is 0..10
+2.022 DOB is 1..5, check superscript reference 4
+2.024 SEX is 1
+2.025 RAC is 1
+2.026 SMT is 0..10
+2.027 HGT is 1
+2.029 WGT is 1
+2.031 EYE is 1
+2.032 HAI is 1
+2.036 PHT is 0..1
+2.038 DPR is 1
+2.041 RES is 0..1
+2.056 ICO is 0..1
+2.067 IMA is 0..1
+2.070 RAP is 0..1
+2.071 ACN is 0..1
+2.073 CRI is 1..3
+2.084 AMP is 0..13, check superscript reference 7
+2.096 RPR is 0..1
+2.098 NDR is 0..10
+2.2037 ESI is 0..1
+
+(Note: This table represents a summary of the fields and their respective cardinality for transaction Type AMN. Any references to superscripts should be checked for additional details.)
+
+### Summary of Field Lists for Identification and Verification Transactions
+#### Table 1: Tag Element vs. AMN
+2.001 LEN is 1
+2.002 IDC is 1
+2.003 FFN is 
+2.005 RET is 1
+2.006 ATN is 0..1
+2.007 SCO is 0..9
+2.009 OCA is 0..1
+2.012 LCN is 
+2.013 LCX is 
+2.014 FBI is 0..5
+2.015 SID is 0..1
+2.016 SOC is 0..4
+2.017 MNU is 0..4
+2.018 NAM is 1
+2.019 AKA is 0..10
+2.020 POB is 1
+2.021 CTZ is 0..10
+2.022 DOB is 1..5
+2.023 AGR is 
+2.024 SEX is 1
+2.025 RAC is 1
+2.026 SMT is 0..10
+2.027 HGT is 1
+2.028 HTR is 
+2.029 WGT is 1
+2.030 WTR is 
+2.031 EYE is 1
+2.032 HAI is 1
+2.033 FPC is 
+2.034 PAT is 
+2.035 PPA is 0..1
+
+### Summary of Field Lists for Identification and Verification Transactions
+#### Table 1: Tag Element vs. CAR
+2.001 LEN is 1
+2.002 IDC is 1
+2.003 FFN is 
+2.005 RET is 1 
+2.006 ATN is 0..1
+2.007 SCO is 0..9
+2.009 OCA is 0..1
+2.012 LCN is 
+2.013 LCX is 
+2.014 FBI is 50..5
+2.015 SID is 60..1
+2.016 SOC is 0..4
+2.017 MNU is 0..4
+2.018 NAM is 41
+2.019 AKA is 0..10
+2.020 POB is 1
+2.021 CTZ is 0..10
+2.022 DOB is 41..5
+2.023 AGR is 
+2.024 SEX is 1
+2.025 RAC is 1
+2.026 SMT is 0..10
+2.027 HGT is 1
+2.028 HTR is 
+2.029 WGT is 1
+2.030 WTR is 
+2.031 EYE is 1
+2.032 HAI is 1
+2.033 FPC is 
+2.034 PAT is 
+2.035 PPA is 0..1
+
+### Summary of Field Lists for Identification and Verification Transactions
+#### Table 1: Tag Element vs. CNA
+2.001 LEN is 1
+2.002 IDC is 1
+2.003 FFN is 
+2.005 RET is 1
+2.006 ATN is 0..1
+2.007 SCO is 0..9
+2.009 OCA is 0..1
+2.012 LCN is 
+2.013 LCX is 
+2.014 FBI is 50..5
+2.015 SID is 0..1
+2.016 SOC is 0..4
+2.017 MNU is 0..4
+2.018 NAM is 1
+2.019 AKA is 0..10
+2.020 POB is 1
+2.021 CTZ is 0..10
+2.022 DOB is 1..5
+2.023 AGR is 
+2.024 SEX is 1
+2.025 RAC is 1
+2.026 SMT is 0..10
+2.027 HGT is 1
+2.028 HTR is 
+2.029 WGT is 1
+2.030 WTR is 
+2.031 EYE is 1
+2.032 HAI is 1
+2.033 FPC is 
+2.034 PAT is 
+2.035 PPA is 0..1
+
+### Summary of Field Lists for Identification and Verification Transactions
+#### Table 1: Tag Element vs. CPDR
+2.001 LEN is 1
+2.002 IDC is 1
+2.003 FFN is 
+2.005 RET is 1
+2.006 ATN is 0..1
+2.007 SCO is 0..9
+2.009 OCA is 0..1
+2.012 LCN is 
+2.013 LCX is 
+2.014 FBI is 50..5
+2.015 SID is 0..1
+2.016 SOC is 0..4
+2.017 MNU is 0..4
+2.018 NAM is 1
+2.019 AKA is 0..10
+2.020 POB is 1
+2.021 CTZ is 0..10
+2.022 DOB is 1..5
+2.023 AGR is 
+2.024 SEX is 1
+2.025 RAC is 1
+2.026 SMT is 0..10
+2.027 HGT is 1
+2.028 HTR is 
+2.029 WGT is 1
+2.030 WTR is 
+2.031 EYE is 1
+2.032 HAI is 1
+2.033 FPC is 
+2.034 PAT is 
+2.035 PPA is 0..1
+
+### Summary of Field Lists for Identification and Verification Transactions
+#### Tag Element Column
+2.036 PHT
+2.037 RFP
+2.038 DPR
+2.039 EAD
+2.040 OCP
+2.041 RES
+2.042 MIL
+2.043 TSR
+2.044 GEO
+2.045 DOA
+2.046 DOS
+2.047 ASL
+2.051 CSL
+2.053 OFC
+2.054 SSD
+2.055 SLE
+2.056 ICO
+2.059 SRF
+2.060 MSG
+2.061 CST
+2.067 IMA
+2.070 RAP
+2.071 ACN
+2.073 CRI
+2.074 FGP
+2.075 ERS
+2.083 ULF
+2.084 AMP
+2.087 TAA
+2.088 NOT
+2.096 RPR
+2.098 NDR
+2.2007 SDOB
+2.2008 SNAM
+2.2015 RBXD
+2.2018 DNAC
+2.2020 RBR
+2.2021 IFS
+2.2023 SII
+2.2030 PPD
+2.2031 BIA
+2.2035 EVI
+2.2037 ESI
+2.2040 RBT
+2.2046 TLI
+2.2048 RBSI
+2.2049 RBTD
+2.2051 HNOTI
+2.2054 RBSD
+2.2061 BIE
+2.2062 RBNF
+2.2063 RBOO
+2.2064 RBUD
+2.2065 RBC
+2.2067 RBDI
+2.2070 RBATN
+2.2071 RBST
+2.2072 POC
+2.2105 FID-1
+
+#### Column Analysis
+**Element/Column Analysis by Transaction Types**
+AMN
+2.036 PHT is 0..1
+2.037 RFP is 1
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+2.042 MIL is 0..1
+2.043 TSR is 1
+2.045 DOA is 1
+2.047 ASL is 1..999
+2.051 CSL is 0..999
+2.056 ICO is 0..1
+2.067 IMA is 0..1
+2.070 RAP is 0..1
+2.071 ACN is 0..1
+2.073 CRI is 1..3
+2.084 AMP is 0..13
+2.096 RPR is 0..1
+
+CAR
+2.036 PHT is 0..1
+2.037 RFP is 1
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+2.042 MIL is 0..1
+2.043 TSR is 0..1
+2.045 DOA is 1
+2.046 DOS is 0..1
+2.047 ASL is 21..999
+2.051 CSL is 0..999
+2.056 ICO is 0..1
+2.067 IMA is 0..1
+2.070 RAP is 0..1
+2.073 CRI is 1..3
+2.084 AMP is 70..13
+2.096 RPR is 0..1
+
+CNA
+2.036 PHT is 0..1
+2.037 RFP is 1
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+2.042 MIL is 0..1
+2.043 TSR is 0..1
+2.045 DOA is 1
+2.046 DOS is 0..1
+2.047 ASL is 21..999
+2.051 CSL is 0..999
+2.056 ICO is 0..1
+2.067 IMA is 0..1
+2.070 RAP is 0..1
+2.073 CRI is 1..3
+2.084 AMP is 70..13
+2.096 RPR is 0..1
+
+CPDR
+2.036 PHT is 0..1
+2.037 RFP is 1
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+2.042 MIL is 0..1
+2.043 TSR is 0..1
+2.045 DOA is 1
+2.047 ASL is 21..999
+2.051 CSL is 0..999
+2.056 ICO is 0..1
+2.067 IMA is 0..1
+2.070 RAP is 0..1
+2.073 CRI is 1..3
+2.084 AMP is 70..13
+
+CPNU
+2.036 PHT is 0..1
+2.037 RFP is 1
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+2.042 MIL is 0..1
+2.043 TSR is 1
+2.045 DOA is 1
+2.047 ASL is 21..999
+2.051 CSL is 0..999
+2.056 ICO is 0..1
+2.067 IMA is 0..1
+2.070 RAP is 0..1
+2.073 CRI is 1..3
+2.084 AMP is 70..13
+
+DEK
+2.036 PHT is 0..1
+2.037 RFP is 1
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+2.042 MIL is 0..1
+2.043 TSR is 0..1
+2.045 DOA is 1
+2.046 DOS is 0..1
+2.047 ASL is 2
+2.051 CSL is 1..999
+2.056 ICO is 0..1
+2.067 IMA is 0..1
+2.070 RAP is 0..1
+2.073 CRI is 1..3
+2.084 AMP is 70..13
+
+DEU
+2.036 PHT is 0..1
+2.037 RFP is 1
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+2.042 MIL is 0..1
+2.043 TSR is 0..1
+2.045 DOA is 1  
+2.051 CSL is 1..999
+2.056 ICO is 0..1
+2.067 IMA is 0..1
+2.070 RAP is 0..1
+2.073 CRI is 1..3
+2.084 AMP is 70..13
+
+DOCE
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+2.043 TSR is 0..1
+
+EMUF
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+
+ERRT
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+2.056 ICO is 0..1
+
+FANC
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+
+FAUF
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+2.043 TSR is 1
+
+FDSP
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+
+FIDR
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+
+FNDR
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+
+FVR
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+2.067 IMA is 0..1
+
+### Summary of Field Lists for Identification and Verification Transactions
+Minimum/Maximum Occurrences of Each Element for Each Logical Record Type
+
+### Tag Element: IIDS
+2.035 PPA is 
+2.036 PHT is 
+2.037 RFP is 1
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+2.042 MIL is 
+2.043 TSR is 0..1
+2.044 GEO is 
+2.045 DOA is 
+2.046 DOS is 
+2.047 ASL is 3
+2.051 CSL is 
+2.053 OFC is 
+2.054 SSD is 
+2.055 SLE is 
+2.056 ICO is 
+2.059 SRF is 
+2.060 MSG is 0..1
+2.061 CST is 1
+2.067 IMA is 0..1
+2.070 RAP is 0..1
+2.071 ACN is 0..1
+2.073 CRI is 0..3
+2.074 FGP is 0..10
+2.075 ERS is 0..1
+2.083 ULF is 
+2.084 AMP is 0..13, check superscript reference 7
+2.087 TAA is 
+
+### Tag Element: LFS
+2.035 PPA is 
+2.036 PHT is 
+2.037 RFP is 1
+2.038 DPR is 1
+2.039 EAD is 0..1
+2.040 OCP is 0..1
+2.041 RES is 0..1
+2.042 MIL is 
+2.043 TSR is 1
+2.044 GEO is 
+2.045 DOA is 
+2.046 DOS is 
+2.047 ASL is 
+2.051 CSL is 
+2.053 OFC is 
+2.054 SSD is 
+2.055 SLE is 
+
+Type: RPIS\n2.001 LEN is 1\n2.002 IDC is 1\n2.006 ATN is 1\n2.009 OCA is 0..1\n2.018 NAM is 0..1\n2.022 DOB is 0..1\n\nTitle: **Summary Logical Record Layouts for Identification and Verification Transactions**\nThis table provides a summary representation of all Identification and Verification transactions.\n\n### Table D-1: Summary of Logical Record Layouts for Identification and Verification Transactions\nType: AMN\n2.001 LEN is 1\n2.002 IDC is 1\n2.005 RET is 1\n2.006 ATN is 0..1\n2.007 SCO is 0..9\n2.009 OCA is 0..1\n2.017 MNU is 0..4\n2.018 NAM is 1, check superscript reference 4\n2.021 CTZ is 0..10\n2.022 DOB is 1..5, check superscript reference 4\n2.024 SEX is 1\n2.025 RAC is 1\n2.026 SMT is 0..10\n2.027 HGT is 1\n2.029 WGT is 1\n2.031 EYE is 1\n2.032 HAI is 1\n2.036 PHT is 0..1\n2.038 DPR is 1\n2.041 RES is 0..1\n2.056 ICO is 0..1\n2.067 IMA is 0..1\n2.070 RAP is 0..1\n2.071 ACN is 0..1\n2.073 CRI is 1..3\n2.084 AMP is 0..13, check superscript reference 7\n2.096 RPR is 0..1\n2.

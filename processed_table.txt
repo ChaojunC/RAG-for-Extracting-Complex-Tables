@@ -1,0 +1,1872 @@
+Title: Table D-1 Summary Logical Record Layouts for Identification and Verification Transactions
+10-word summary: Summary of minimum and maximum occurrences for various fields.
+
+Type: AMN
+  2.001 LEN is 1
+  2.002 IDC is 1
+  2.005 RET is 1
+  2.006 ATN is 0..1
+  2.007 SCO is 0..9
+  2.009 OCA is 0..1
+  2.017 MNU is 0..4
+  2.018 NAM is 1, check superscript reference 4
+  2.021 CTZ is 0..10
+  2.022 DOB is 1..5, check superscript reference 4
+  2.024 SEX is 1
+  2.025 RAC is 1
+Table Title: Summary of Field Lists for Identification and Verification Transactions
+Summary: This table outlines the minimum and maximum occurrences of each element for various logical record types.
+
+Type: AMN
+2.001 LEN is 1  
+2.002 IDC is 1  
+2.003 FFN  
+2.005 RET is 1  
+2.006 ATN is 0..1  
+2.007 SCO is 0..9  
+2.009 OCA is 0..1  
+2.012 LCN  
+2.013 LCX  
+2.014 FBI is 0..5  
+2.015 SID is 0..1  
+2.016 SOC is 0..4  
+2.017 MNU is 0..4  
+2.018 NAM is 1  
+2.019 AKA is 0..10  
+2.020 POB is 1  
+2.021 CTZ is 0..10  
+2.022 DOB is 1..5  
+2.023 AGR  
+2.024 SEX is 1  
+2.025 RAC is 1  
+2.026 SMT is 0..10  
+2.027 HGT is 1  
+2.028 HTR  
+2.029 WGT is 1  
+2.030 WTR  
+2.031 EYE is 1  
+2.032 HAI is 1  
+2.033 FPC  
+2.034 PAT  
+2.035 PPA is 0..1  
+
+Type: CAR
+2.001 LEN is 1  
+2.002 IDC is 1  
+2.003 FFN  
+2.005 RET is 1  
+2.006 ATN is 0..1  
+2.007 SCO is 0..9  
+2.009 OCA is 0..1  
+2.012 LCN  
+2.013 LCX  
+2.014 FBI is 0..5  
+2.015 SID is 6  
+2.016 SOC is 0..4  
+2.017 MNU is 0..4  
+2.018 NAM is 4  
+2.019 AKA is 0..10  
+2.020 POB is 1  
+2.021 CTZ is 0..10  
+2.022 DOB is 4..5  
+2.023 AGR  
+2.024 SEX is 1  
+2.025 RAC is 1  
+2.026 SMT is 0..10  
+2.027 HGT is 1  
+2.028 HTR  
+2.029 WGT is 1  
+2.030 WTR  
+2.031 EYE is 1  
+2.032 HAI is 1  
+2.033 FPC  
+2.034 PAT  
+2.035 PPA is 0..1  
+
+Type: CNA
+2.001 LEN is 1  
+2.002 IDC is 1  
+2.003 FFN  
+2.005 RET is 1  
+2.006 ATN is 0..1  
+2.007 SCO is 0..9  
+2.009 OCA is 0..1  
+2.012 LCN  
+2.013 LCX  
+2.014 FBI is 5  
+2.015 SID is 6  
+2.016 SOC is 0..4  
+2.017 MNU is 0..4  
+2.018 NAM is 1  
+2.019 AKA is 0..10  
+2.020 POB is 1  
+2.021 CTZ is 0..10  
+2.022 DOB is 1..5  
+2.023 AGR  
+2.024 SEX is 1  
+2.025 RAC is 1  
+2.026 SMT is 0..10  
+2.027 HGT is 1  
+2.028 HTR  
+2.029 WGT is 1  
+2.030 WTR  
+2.031 EYE is 1  
+2.032 HAI is 1  
+2.033 FPC  
+2.034 PAT  
+2.035 PPA is 0..1  
+
+Type: CPDR
+2.001 LEN is 1  
+2.002 IDC is 1  
+2.003 FFN  
+2.005 RET is 1  
+2.006 ATN is 0..1  
+2.007 SCO is 0..9  
+2.009 OCA is 0..1  
+2.012 LCN  
+2.013 LCX  
+2.014 FBI is 5  
+2.015 SID is 1  
+2.016 SOC is 0..4  
+2.017 MNU is 0..4  
+2.018 NAM is 1  
+2.019 AKA is 0..10  
+2.020 POB is 1  
+2.021 CTZ is 0..10  
+2.022 DOB is 1..5  
+2.023 AGR  
+2.024 SEX is 1  
+2.025 RAC is 1  
+2.026 SMT is 0..10  
+2.027 HGT is 1  
+2.028 HTR  
+2.029 WGT is 1  
+2.030 WTR  
+2.031 EYE is 1  
+2.032 HAI is 1  
+2.033 FPC  
+2.034 PAT  
+2.035 PPA is 0..1  
+
+Type: CPNU
+2.001 LEN is 1  
+2.002 IDC is 1  
+2.003 FFN  
+2.005 RET is 1  
+2.006 ATN is 0..1  
+2.007 SCO is 0..9  
+2.009 OCA is 0..1  
+2.012 LCN  
+2.013 LCX  
+2.014 FBI is 5  
+2.015 SID is 1  
+2.016 SOC is 0..4  
+2.017 MNU is 0..4  
+2.018 NAM is 1  
+2.019 AKA is 0..10  
+2.020 POB is 0..1  
+2.021 CTZ is 0..10  
+2.022 DOB is 1..5  
+2.023 AGR  
+2.024 SEX is 1  
+2.025 RAC is 1  
+2.026 SMT is 0..10  
+2.027 HGT is 1  
+2.028 HTR  
+2.029 WGT is 1  
+2.030 WTR  
+2.031 EYE is 1  
+2.032 HAI is 1  
+2.033 FPC  
+2.034 PAT  
+2.035 PPA is 0..1  
+
+Type: DEK
+2.001 LEN is 1  
+2.002 IDC is 1  
+2.003 FFN  
+2.005 RET is 1  
+2.006 ATN is 0..1  
+2.007 SCO is 0..9  
+2.009 OCA is 0..1  
+2.012 LCN  
+2.013 LCX  
+2.014 FBI is 0..5  
+2.015 SID is 6  
+2.016 SOC is 0..4  
+2.017 MNU is 0..4  
+2.018 NAM is 1  
+2.019 AKA is 0..10  
+2.020 POB is 1  
+2.021 CTZ is 0..10  
+2.022 DOB is 1..5  
+2.023 AGR  
+2.024 SEX is 1  
+2.025 RAC is 1  
+2.026 SMT is 0..10  
+2.027 HGT is 1  
+2.028 HTR  
+2.029 WGT is 1  
+2.030 WTR  
+2.031 EYE is 1  
+2.032 HAI is 1  
+2.033 FPC  
+2.034 PAT  
+2.035 PPA is 0..1  
+
+Type: DEU
+2.001 LEN is 1  
+2.002 IDC is 1  
+2.003 FFN  
+2.005 RET is 1  
+2.006 ATN is 0..1  
+2.007 SCO is 0..9  
+2.009 OCA is 0..1  
+2.012 LCN  
+2.013 LCX  
+2.014 FBI is 5  
+2.015 SID is 1  
+2.016 SOC is 0..4  
+2.017 MNU is 0..4  
+2.018 NAM is 1  
+2.019 AKA is 0..10  
+2.020 POB is 1  
+2.021 CTZ is 0..10  
+2.022 DOB is 1..5  
+2.023 AGR  
+2.024 SEX is 1  
+2.025 RAC is 1  
+2.026 SMT is 0..10  
+2.027 HGT is 1  
+2.028 HTR  
+2.029 WGT is 1  
+2.030 WTR  
+2.031 EYE is 1  
+2.032 HAI is 1  
+2.033 FPC  
+2.034 PAT  
+2.035 PPA is 0..1  
+
+Type: DOCE
+2.001 LEN is 1  
+2.002 IDC is 1  
+2.003 FFN  
+2.005 RET is 1  
+2.006 ATN is 0..1  
+2.007 SCO is 0..9  
+2.009 OCA is 0..1  
+2.012 LCN  
+2.013 LCX  
+2.014 FBI is 5  
+2.015 SID is 1  
+2.016 SOC is 0..4  
+2.017 MNU is 0..4  
+2.018 NAM is 1  
+2.019 AKA is 0..10  
+2.020 POB is 1  
+2.021 CTZ is 0..10  
+2.022 DOB is 1..5  
+2.023 AGR  
+2.024 SEX is 1  
+2.025 RAC is 1  
+2.026 SMT is 0..10  
+2.027 HGT is 1  
+2.028 HTR  
+2.029 WGT is 1  
+2.030 WTR  
+2.031 EYE is 1  
+2.032 HAI is 1  
+2.033 FPC  
+2.034 PAT  
+2.035 PPA is 0..1  
+
+Type: EMUF
+2.001 LEN is 1  
+2.002 IDC is 1  
+2.003 FFN  
+2.005 RET is 1  
+2.006 ATN is 0..1  
+2.007 SCO is 0..9  
+2.009 OCA is 0..1  
+2.012 LCN  
+2.013 LCX  
+2.014 FBI is 5  
+2.015 SID is 1  
+2.016 SOC is 0..4  
+2.017 MNU is 0..4  
+2.018 NAM is 1  
+2.019 AKA is 0..10  
+2.020 POB is 1  
+2.021 CTZ is 0..10  
+2.022 DOB is 1..5  
+2.023 AGR  
+2.024 SEX is 1  
+2.025 RAC is 1  
+2.026 SMT is 0..10  
+2.027 HGT is 1  
+2.028 HTR  
+2.029 WGT is 1  
+2.030 WTR  
+2.031 EYE is 1  
+2.032 HAI is 1  
+2.033 FPC  
+2.034 PAT  
+2.035 PPA is 0..1  
+
+Type: ERRT
+2.001 LEN is 1  
+2.002 IDC is 1  
+2.003 FFN  
+2.005 RET is 1  
+2.006 ATN is 0..1  
+2.007 SCO is 0..9  
+2.009 OCA is 0..1  
+2.012 LCN  
+2.013 LCX  
+2.014 FBI is 5  
+2.015 SID is 1  
+2.016 SOC is 0..4  
+2.017 MNU is 0..4  
+2.018 NAM is 1  
+2.019 AKA is 0..10  
+2.020 POB is 1  
+2.021 CTZ is 0..10  
+2.022 DOB is 1..5  
+2.023 AGR  
+2.024 SEX is 1  
+2.025 RAC is 1  
+2.026 SMT is 0..10  
+2.027 HGT is 1  
+2.028 HTR  
+2.029 WGT is 1  
+2.030 WTR  
+2.031 EYE is 1  
+2.032 HAI is 1  
+2.033 FPC  
+2.034 PAT  
+2.035 PPA is 0..1  
+
+Type: FANC
+2.001 LEN is 1  
+2.002 IDC is 1  
+2.003 FFN  
+2.005 RET is 1  
+2.006 ATN is 0..1  
+2.007 SCO is 0..9  
+2.009 OCA is 0..1  
+2.012 LCN  
+2.013 LCX  
+2.014 FBI is 0..5  
+2.015 SID is 6  
+2.016 SOC is 0..4  
+2.017 MNU is 0..4  
+2.018 NAM is 1  
+2.019 AKA is 0..10  
+2.020 POB is 0..1  
+2.021 CTZ is 0..10  
+2.022 DOB is 1..5  
+2.023 AGR  
+2.024 SEX is 0..1  
+2.025 RAC is 0..1  
+2.026 SMT is 0..10  
+2.027 HGT is 0..1  
+2.028 HTR  
+2.029 WGT is 0..1  
+2.030 WTR  
+2.031 EYE is 0..1  
+2.032 HAI is 0..1  
+2.033 FPC  
+2.034 PAT  
+2.035 PPA is 0..1  
+
+Type: FAUF
+2.001 LEN is 1  
+2.002 IDC is 1  
+2.003 FFN  
+2.005 RET is 1  
+2.006 ATN is 0..1  
+2.007 SCO is 0..9  
+2.009 OCA is 0..1  
+2.012 LCN  
+2.013 LCX  
+2.014 FBI is 5  
+2.015 SID is 1  
+2.016 SOC is 0..4  
+2.017 MNU is 0..4  
+2.018 NAM is 1  
+2.019 AKA is 0..10  
+2.020 POB is 0..1  
+2.021 CTZ is 0..10  
+2.022 DOB is 1..5  
+2.023 AGR  
+2.024 SEX is 1  
+2.025 RAC is 1  
+2.026 SMT is 0..10  
+2.027 HGT is 0..1  
+2.028 HTR  
+2.029 WGT is 0..1  
+2.030 WTR  
+2.031 EYE is 0..1  
+2.032 HAI is 0..1  
+2.033 FPC  
+2.034 PAT  
+2.035 PPA is 0..1  
+
+Type: FDSP
+2.001 LEN is 1  
+2.002 IDC is 1  
+2.003 FFN  
+2.005 RET is 1  
+2.006 ATN is 0..1  
+2.007 SCO is 0..9  
+2.009 OCA is 0..1  
+2.012 LCN  
+2.013 LCX  
+2.014 FBI is 5  
+2.015 SID is 1  
+2.016 SOC is 0..4  
+2.017 MNU is 4  
+2.018 NAM is 1  
+2.019 AKA is 0..10  
+2.020 POB is 1  
+2.021 CTZ is 0..10  
+2.022 DOB is 1..5  
+2.023 AGR  
+2.024 SEX is 1  
+2.025 RAC is 1  
+2.026 SMT is 0..10  
+2.027 HGT is 1  
+2.028 HTR  
+2.029 WGT is 1  
+2.030 WTR  
+2.031 EYE is 1  
+2.032 HAI is 1  
+2.033 FPC  
+2.034 PAT  
+2.035 PPA is 0..1  
+
+Type: FIDR
+2.001 LEN is 1  
+2.002 IDC is 1  
+2.003 FFN  
+2.005 RET is 1  
+2.006 ATN is 0..1  
+2.007 SCO is 0..9  
+2.009 OCA is 0..1  
+2.012 LCN  
+2.013 LCX  
+2.014 FBI is 5  
+2.015 SID is 1  
+2.016 SOC is 0..4  
+2.017 MNU is 4  
+2.018 NAM is 1  
+2.019 AKA is 0..10  
+2.020 POB is 1  
+2.021 CTZ is 0..10  
+2.022 DOB is 1..5  
+2.023 AGR  
+2.024 SEX is 1  
+2.025 RAC is 1  
+2.026 SMT is 0..10  
+2.027 HGT is 1  
+2.028 HTR  
+2.029 WGT is 1  
+2.030 WTR  
+2.031 EYE is 1  
+2.032 HAI is 1  
+2.033 FPC  
+2.034 PAT  
+2.035 PPA is 0..1  
+
+Type: FNDR
+2.001 LEN is 1  
+2.002 IDC is 1  
+2.003 FFN  
+2.005 RET is 1  
+2.006 ATN is 0..1  
+2.007 SCO is 0..9  
+2.009 OCA is 0..1  
+2.012 LCN  
+2.013 LCX  
+2.014 FBI is 5  
+2.015 SID is 1  
+2.016 SOC is 0..4  
+2.017 MNU is 4  
+2.018 NAM is 1  
+2.019 AKA is 0..10  
+2.020 POB is 1  
+2.021 CTZ is 0..10  
+2.022 DOB is 1..5  
+2.023 AGR  
+2.024 SEX is 1  
+2.025 RAC is 1  
+2.026 SMT is 0..10  
+2.027 HGT is 1  
+2.028 HTR  
+2.029 WGT is 1  
+2.030 WTR  
+2.031 EYE is 1  
+2.032 HAI is 1  
+2.033 FPC  
+2.034 PAT  
+2.035 PPA is 0..1  
+
+Type: FVR
+2.001 LEN is 1  
+2.002 IDC is 1  
+2.003 FFN  
+2.005 RET is 1  
+2.006 ATN is 0..1  
+2.007 SCO is 0..9  
+2.009 O
+### Table: Field Lists for Identification and Verification Transactions
+This table details the minimum and maximum occurrences of each element for various logical record types.
+
+#### Column: AMN
+
+- 2.036 PHT is 0..1
+- 2.037 RFP is 1
+- 2.038 DPR is 1
+- 2.039 EAD is 0..1
+- 2.040 OCP is 0..1
+- 2.041 RES is 0..1
+- 2.042 MIL is 0..1
+- 2.043 TSR is 1
+- 2.045 DOA is 1
+- 2.046 DOS is 0..1
+- 2.047 ASL is 1..999
+- 2.051 CSL is 0..999
+- 2.056 ICO is 0..1
+- 2.060 MSG is 1..11
+- 2.067 IMA is 0..1
+- 2.070 RAP is 0..1
+- 2.073 CRI is 1..3
+- 2.084 AMP is 0..13
+- 2.087 TAA is 0..1
+- 2.096 RPR is 0..1
+
+#### Column: CAR
+
+- 2.036 PHT is 0..1
+- 2.037 RFP is 1
+- 2.038 DPR is 1
+- 2.039 EAD is 0..1
+- 2.040 OCP is 0..1
+- 2.041 RES is 0..1
+- 2.042 MIL is 0..1
+- 2.043 TSR is 0..1
+- 2.045 DOA is 1
+- 2.046 DOS is 0..1
+- 2.047 ASL is 21..999
+- 2.051 CSL is 0..999
+- 2.056 ICO is 0..1
+- 2.067 IMA is 0..1
+- 2.070 RAP is 0..1
+- 2.073 CRI is 1..3
+- 2.084 AMP is 70..13 
+- 2.087 TAA is 0..1 
+- 2.096 RPR is 0..1
+
+#### Column: CNA
+
+- 2.036 PHT is 0..1
+- 2.037 RFP is 1
+- 2.038 DPR is 1
+- 2.039 EAD is 0..1
+- 2.040 OCP is 0..1
+- 2.041 RES is 0..1
+- 2.042 MIL is 0..1
+- 2.043 TSR is 0..1
+- 2.045 DOA is 1
+- 2.046 DOS is 0..1
+- 2.047 ASL is 21..999
+- 2.051 CSL is 0..999
+- 2.056 ICO is 0..1
+- 2.067 IMA is 0..1
+- 2.070 RAP is 0..1
+- 2.073 CRI is 1..3
+- 2.084 AMP is 70..13
+- 2.087 TAA is 0..1
+- 2.096 RPR is 0..1
+
+#### Column: CPDR
+
+- 2.036 PHT is 0..1
+- 2.037 RFP is 1
+- 2.038 DPR is 1
+- 2.039 EAD is 0..1
+- 2.040 OCP is 0..1
+- 2.041 RES is 0..1
+- 2.043 TSR is 0..1
+- 2.045 DOA is 1
+- 2.046 DOS is 0..1
+- 2.047 ASL is 21..999
+- 2.051 CSL is 0..999
+- 2.056 ICO is 0..1
+- 2.067 IMA is 0..1
+- 2.070 RAP is 0..1
+- 2.073 CRI is 1..3
+- 2.084 AMP is 70..13
+- 2.087 TAA is 0..1
+- 2.096 RPR is 0..1
+
+#### Column: CPNU
+
+- 2.036 PHT is 0..1
+- 2.037 RFP is 1
+- 2.038 DPR is 1
+- 2.039 EAD is 0..1
+- 2.040 OCP is 0..1
+- 2.041 RES is 0..1
+- 2.043 TSR is 1
+- 2.045 DOA is 1
+- 2.046 DOS is 0..1
+- 2.047 ASL is 2
+- 2.051 CSL is 1..999
+- 2.056 ICO is 0..1
+- 2.067 IMA is 0..1
+- 2.070 RAP is 0..1
+- 2.073 CRI is 1..3
+- 2.084 AMP is 70..13
+- 2.087 TAA is 0..1 
+- 2.096 RPR is 0..1
+
+#### Column: DEK
+
+- 2.036 PHT is 0..1
+- 2.037 RFP is 1
+- 2.038 DPR is 1
+- 2.039 EAD is 0..1
+- 2.040 OCP is 0..1
+- 2.041 RES is 0..1
+- 2.042 MIL is 0..1
+- 2.043 TSR is 0..1
+- 2.045 DOA is 1
+- 2.051 CSL is 12
+- 2.056 ICO is 0..1
+- 2.067 IMA is 0..1
+- 2.070 RAP is 0..1
+- 2.073 CRI is 1..3
+- 2.084 AMP is 70..13 
+- 2.087 TAA is 0..1
+- 2.096 RPR is 0..1
+
+#### Column: DEU
+
+- 2.036 PHT is 0..1
+- 2.037 RFP is 1
+- 2.038 DPR is 1
+- 2.039 EAD is 0..1
+- 2.040 OCP is 0..1
+- 2.041 RES is 0..1
+- 2.043 TSR is 0..1
+- 2.045 DOA is 1
+- 2.051 CSL is 12
+- 2.056 ICO is 0..1
+- 2.067 IMA is 0..1
+- 2.070 RAP is 0..1
+- 2.073 CRI is 1..3
+- 2.084 AMP is 70..13
+- 2.087 TAA is 0..1 
+- 2.096 RPR is 0..1
+
+#### Column: DOCE
+
+- 2.038 DPR is 1
+- 2.039 EAD is 0..1
+- 2.041 RES is 0..1
+- 2.043 TSR is 0..1
+- 2.056 ICO is 0..1
+- 2.067 IMA is 0..1
+- 2.070 RAP is 0..1
+- 2.073 CRI is 1..3
+- 2.084 AMP is 70..13 
+- 2.096 RPR is 0..1
+
+#### Column: EMUF
+
+- 2.038 DPR is 1
+- 2.039 EAD is 0..1
+- 2.041 RES is 0..1
+- 2.043 TSR is 0..1 
+- 2.056 ICO is 0..1
+- 2.067 IMA is 0..1
+- 2.070 RAP is 0..1 
+- 2.073 CRI is 1..3
+- 2.084 AMP is 70..13 
+- 2.096 RPR is 0..1
+
+#### Column: ERRT
+
+- 2.038 DPR is 1 
+- 2.039 EAD is 0..1
+- 2.041 RES is 0..1
+- 2.043 TSR is 0..1 
+- 2.056 ICO is 0..1
+- 2.067 IMA is 0..1
+- 2.070 RAP is 0..1 
+- 2.073 CRI is 1..3
+- 2.084 AMP is 70..13 
+- 2.096 RPR is 0..1
+
+#### Column: FANC
+
+- 2.038 DPR is 1 
+- 2.039 EAD is 0..1
+- 2.041 RES is 0..1 
+- 2.056 ICO is 0..1
+- 2.067 IMA is 0..1
+- 2.070 RAP is 0..1 
+- 2.073 CRI is 0..3
+- 2.084 AMP is 70..13 
+- 2.096 RPR is 0..1
+
+#### Column: FAUF
+
+- 2.038 DPR is 1
+- 2.039 EAD is 0..1 
+- 2.041 RES is 0..1 
+- 2.056 ICO is 0..1
+- 2.067 IMA is 0..1
+- 2.070 RAP is 0..1 
+- 2.073 CRI is 1..3
+- 2.084 AMP is 70..13 
+- 2.096 RPR is 0..1
+
+#### Column: FDSP
+
+- 2.038 DPR is 1
+- 2.039 EAD is 0..1
+- 2.041 RES is 0..1 
+- 2.056 ICO is 0..1
+- 2.067 IMA is 0..1
+- 2.070 RAP is 0..1 
+- 2.073 CRI is 0..3
+- 2.084 AMP is 70..13 
+- 2.096 RPR is 0..1
+
+#### Column: FIDR
+
+- 2.038 DPR is 1
+- 2.039 EAD is 0..1
+- 2.041 RES is 0..1 
+- 2.056 ICO is 0..1
+- 2.067 IMA is 0..1
+- 2.070 RAP is 0..1 
+- 2.073 CRI is 1..3
+- 2.084 AMP is 70..13 
+- 2.096 RPR is 0..1
+
+#### Column: FNDR
+
+- 2.038 DPR is 1
+- 2.039 EAD is 0..1
+- 2.041 RES is 0..1 
+- 2.056 ICO is 0..1
+- 2.067 IMA is 0..1
+- 2.070 RAP is 0..1 
+- 2.073 CRI is 1..3
+- 2.084 AMP is 70..13 
+- 2.096 RPR is 0..1
+
+#### Column: FVR
+
+- 2.036 PHT is 0..1
+- 2.038 DPR is 1 
+- 2.039 EAD is 0..1
+- 2.041 RES is 0..1 
+- 2.043 TSR is 0..1
+ 
+
+Title: Summary of Field Lists for Identification and Verification Transactions
+10-word summary: Minimum/Maximum occurrences of each element for logical record types.
+
+Type: AMN
+2.098 NDR is 0..10
+2.2007 SDOB is 1
+2.2008 SNAM is 1
+2.2015 RBXD is 0..1
+2.2018 DNAC 
+2.2020 RBR is 0..9
+2.2021 IFS is 1
+2.2023 SII 
+2.2030 PPD 
+2.2031 BIA 
+2.2035 EVI 
+2.2037 ESI is 0..1
+2.2040 RBT is 0..40
+2.2046 TLI is 1
+2.2048 RBSI 
+2.2049 RBTD 
+2.2051 HNOTI is 0..1
+2.2054 RBSD 
+2.2061 BIE 
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2067 RBDI is 0..1 
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1 
+2.2072 POC is 0..1
+2.2105 FI is 0..999
+
+Type: CAR
+2.098 NDR is 0..10
+2.2015 RBXD is 0..1
+2.2020 RBR is 0..9
+2.2037 ESI is 0..1
+2.2040 RBT is 0..40
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2067 RBDI is 0..1 
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1 
+
+Type: CNA
+2.098 NDR is 0..10
+2.2015 RBXD is 0..1
+2.2020 RBR is 0..9
+2.2037 ESI is 0..1
+2.2040 RBT is 0..40
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2067 RBDI is 0..1 
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1 
+
+Type: CPDR
+2.098 NDR is 0..10
+2.2015 RBXD is 0..1
+2.2020 RBR is 0..9
+2.2037 ESI is 0..1
+2.2040 RBT is 0..40
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2067 RBDI is 0..1 
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1 
+
+Type: CPNU
+2.098 NDR is 0..10
+2.2015 RBXD is 0..1
+2.2020 RBR is 0..9
+2.2037 ESI is 0..1
+2.2040 RBT is 0..40
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2067 RBDI is 0..1 
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1 
+
+Type: DEK
+2.098 NDR is 0..10
+2.2015 RBXD is 0..1
+2.2020 RBR is 0..9
+2.2037 ESI is 0..1
+2.2040 RBT is 0..40
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2067 RBDI is 0..1 
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1 
+
+Type: DEU
+2.098 NDR is 0..10
+2.2015 RBXD is 0..1
+2.2020 RBR is 0..9
+2.2037 ESI is 0..1
+2.2040 RBT is 0..40
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2067 RBDI is 0..1 
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1 
+
+Type: DOCE
+2.098 NDR is 0..10
+2.2037 ESI is 0..1
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2067 RBDI is 0..1 
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1 
+
+Type: EMUF
+2.098 NDR is 0..10
+2.2037 ESI is 0..1
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2067 RBDI is 0..1 
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1 
+
+Type: ERRT
+2.098 NDR is 0..10
+2.2037 ESI is 0..1
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2067 RBDI is 0..1 
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1 
+
+Type: FANC
+2.098 NDR is 0..10
+2.2037 ESI is 0..1
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2067 RBDI is 0..1 
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1 
+
+Type: FAUF
+2.098 NDR is 0..10
+2.2037 ESI is 0..1
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2067 RBDI is 0..1 
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1 
+
+Type: FDSP
+2.098 NDR is 0..10
+
+Type: FIDR
+2.098 NDR is 0..10
+
+Type: FNDR
+2.098 NDR is 0..10
+
+Type: FVR
+2.098 NDR is 0..10
+### Table Summary:
+Title: Minimum/Maximum Occurrences of Each Element for Each Logical Record Type
+Summary: Detailed occurrences of elements across various logical record types.
+
+---
+Type: IIDS
+
+2.001 LEN is 1
+2.002 IDC is 1
+2.003 FFN is 0..1
+2.005 RET is 1
+2.006 ATN is 0..1
+2.007 SCO is 0..9
+2.009 OCA is 0..1
+2.012 LCN is 0..1
+2.013 LCX is 0..1
+2.014 FBI is 0..1
+2.015 SID is 0..1
+2.016 SOC is 0..4
+2.017 MNU is 0..4
+2.018 NAM is 0..1
+2.019 AKA is 0..10
+2.020 POB is 0..1
+2.021 CTZ is 0..10
+2.022 DOB is 0..5
+2.023 AGR is 0..1
+2.024 SEX is 0..1
+2.025 RAC is 0..1
+2.026 SMT is 0..10
+2.027 HGT is 0..1
+2.028 HTR is 0..1
+2.029 WGT is 0..1
+2.030 WTR is 0..1
+2.031 EYE is 0..1
+2.032 HAI is 0..1
+2.033 FPC is 0..1
+2.034 PAT is 0..10
+
+---
+Type: LFS
+
+2.001 LEN is 1
+2.002 IDC is 1
+2.003 FFN is 0..1
+2.005 RET is 1
+2.006 ATN is 1
+2.007 SCO is 0..9
+2.009 OCA is 0..1
+2.014 FBI is 0..1
+2.015 SID is 0..5
+2.016 SOC is 1
+2.017 MNU is 0..4
+2.018 NAM is 0..1
+2.019 AKA is 0..10
+2.020 POB is 0..1
+2.021 CTZ is 11
+2.022 DOB is 11
+2.023 AGR is 0..1
+2.024 SEX is 0..1
+2.025 RAC is 0..1
+2.026 SMT is 0..10
+2.027 HGT is 111
+2.029 WGT is 111
+2.031 EYE is 0..1
+2.032 HAI is 0..1
+2.034 PAT is 0..10
+
+---
+Type: LSR
+
+2.001 LEN is 1
+2.002 IDC is 1
+2.005 RET is 1
+2.006 ATN is 0..1
+2.007 SCO is 0..9
+2.009 OCA is 0..1
+2.014 FBI is 100..5
+2.015 SID is 10
+2.016 SOC is 0..4
+2.017 MNU is 0..4
+2.018 NAM is 101
+2.019 AKA is 0..10
+2.020 POB is 101
+2.021 CTZ is 0..10
+2.022 DOB is 1..5
+2.024 SEX is 111
+2.025 RAC is 111
+2.026 SMT is 11
+2.027 HGT is 111
+2.029 WGT is 111
+2.031 EYE is 111
+2.032 HAI is 111
+
+---
+Type: MAP
+
+2.001 LEN is 1
+2.002 IDC is 1
+2.005 RET is 1
+2.006 ATN is 0..1
+2.007 SCO is 0..9
+2.009 OCA is 0..1
+2.014 FBI is 0..5
+2.015 SID is 0..1
+2.016 SOC is 0..4
+2.017 MNU is 11
+2.018 NAM is 1
+2.019 AKA is 0..10
+2.020 POB is 0..1
+2.021 CTZ is 0..10
+2.022 DOB is 1..5
+2.024 SEX is 1
+2.025 RAC is 1
+2.026 SMT is 0..10
+2.027 HGT is 1
+2.029 WGT is 1
+2.031 EYE is 1
+2.032 HAI is 1
+
+---
+Type: MPR
+
+2.001 LEN is 1
+2.002 IDC is 1
+2.005 RET is 1
+2.006 ATN is 0..1
+2.007 SCO is 0..9
+2.009 OCA is 0..1
+2.014 FBI is 0..5
+2.015 SID is 0..1
+2.016 SOC is 0..4
+2.017 MNU is 0..4
+2.018 NAM is 1
+2.019 AKA is 0..10
+2.020 POB is 1
+2.021 CTZ is 0..10
+2.022 DOB is 1..5
+2.024 SEX is 1
+2.025 RAC is 1
+2.026 SMT is 0..10
+2.027 HGT is 1
+2.029 WGT is 1
+2.031 EYE is 1
+2.032 HAI is 1
+
+---
+Type: NFUE
+
+2.001 LEN is 1
+2.002 IDC is 1
+2.005 RET is 1
+2.006 ATN is 0..1
+2.007 SCO is 0..9
+2.009 OCA is 0..1
+2.014 FBI is 0..5
+2.015 SID is 0..1
+2.016 SOC is 0..4
+2.017 MNU is 0..4
+2.018 NAM is 1
+2.019 AKA is 0..10
+2.020 POB is 1
+2.021 CTZ is 0..10
+2.022 DOB is 1..5
+2.024 SEX is 1
+2.025 RAC is 1
+2.026 SMT is 0..10
+2.027 HGT is 1
+2.029 WGT is 1
+2.031 EYE is 1
+2.032 HAI is 1
+
+---
+Type: NFUF
+
+2.001 LEN is 1
+2.002 IDC is 1
+2.005 RET is 1
+2.006 ATN is 0..1
+2.007 SCO is 0..9
+2.009 OCA is 0..1
+2.014 FBI is 0..5
+2.015 SID is 0..1
+2.016 SOC is 0..4
+2.017 MNU is 0..4
+2.018 NAM is 1
+2.019 AKA is 0..10
+2.020 POB is 1
+2.021 CTZ is 0..10
+2.022 DOB is 1..5
+2.024 SEX is 1
+2.025 RAC is 1
+2.026 SMT is 0..10
+2.027 HGT is 1
+2.029 WGT is 1
+2.031 EYE is 1
+2.032 HAI is 1
+
+---
+Type: NNDR
+
+2.001 LEN is 1
+2.002 IDC is 1
+2.006 ATN is 0..1
+2.007 SCO is 0..9
+2.009 OCA is 0..1
+2.014 FBI is 0..2
+2.015 SID is 0..1
+2.016 SOC is 0..4
+2.017 MNU is 0..4
+2.018 NAM is 0..1
+2.019 AKA is 0..10
+2.020 POB is 0..1
+2.021 CTZ is 0..10
+2.022 DOB is 0..1
+2.024 SEX is 0..1
+2.025 RAC is 1
+2.026 SMT is 0..10
+2.033 FPC is 0..1
+
+---
+Type: RPIS
+
+2.001 LEN is 1
+2.002 IDC is 1
+2.006 ATN is 1
+2.007 SCO is 0..9
+2.009 OCA is 0..1
+2.014 FBI is 0..18
+2.015 SID is 0..1
+2.016 SOC is 0..4
+2.017 MNU is 0..4
+2.018 NAM is 0..1
+2.019 AKA is 0..10
+2.020 POB is 0..1
+2.021 CTZ is 0..10
+2.022 DOB is 0..1
+2.024 SEX is 0..1
+2.025 RAC is 1
+2.026 SMT is 0..10
+2.027 HGT is 1
+2.029 WGT is 1
+2.031 EYE is 1
+2.032 HAI is 1
+
+---
+Type: RPISR
+
+2.001 LEN is 1
+2.002 IDC is 1
+2.006 ATN is 1
+2.007 SCO is 0..9
+2.009 OCA is 0..1
+2.014 FBI is 0..1
+2.018 NAM is 1
+2.020 POB is 1
+2.022 DOB is 1
+
+### Title: FBI CJIS/NGI EBTS Elements Overview
+### Summary: Minimum/Maximum occurrences of each element for various logical record types
+
+#### Column: Tag
+```
+2.035 PPA 
+2.036 PHT 
+2.037 RFP 
+2.038 DPR 
+2.039 EAD 
+2.040 OCP 
+2.041 RES 
+2.042 MIL 
+2.043 TSR 
+2.044 GEO 
+2.045 DOA
+2.046 DOS 
+2.047 ASL 
+2.051 CSL 
+2.053 OFC 
+2.054 SSD 
+2.055 SLE 
+2.056 ICO 
+2.059 SRF 
+2.060 MSG 
+2.061 CST 
+2.067 IMA 
+2.070 RAP 
+2.071 ACN 
+2.073 CRI 
+2.074 FGP 
+2.075 ERS 
+2.083 ULF 
+2.084 AMP 
+2.087 TAA 
+```
+
+#### Column: Element
+```
+2.035 PPA 
+2.036 PHT 
+2.037 RFP 
+2.038 DPR 
+2.039 EAD 
+2.040 OCP 
+2.041 RES 
+2.042 MIL 
+2.043 TSR 
+2.044 GEO 
+2.045 DOA
+2.046 DOS 
+2.047 ASL 
+2.051 CSL 
+2.053 OFC 
+2.054 SSD 
+2.055 SLE 
+2.056 ICO 
+2.059 SRF 
+2.060 MSG 
+2.061 CST 
+2.067 IMA 
+2.070 RAP 
+2.071 ACN 
+2.073 CRI 
+2.074 FGP 
+2.075 ERS 
+2.083 ULF 
+2.084 AMP 
+2.087 TAA 
+```
+
+#### Column: IIDS
+```
+2.035 0..1 
+2.036 0..1 
+2.037 1 
+2.038 0..1 
+2.039 0..1 
+2.040 0..1 
+2.041 0..1 
+2.042 0..1 
+2.043 0..1 
+2.044 0..5 
+2.045  
+2.046  
+2.047 0..999 
+2.051  
+2.053 1 
+2.054  
+2.055  
+2.056 0..1 
+2.059 1 
+2.060 0..1 
+2.061 1 
+2.067 0..1 
+2.070 0..1 
+2.071 0..1 
+2.073 0..3 
+2.074 0..10 
+2.075 0..1 
+2.083 0..1 
+2.084 0..13 
+2.087 0..1 
+```
+
+#### Column: LFS
+```
+2.035  
+2.036  
+2.037 1 
+2.038 1 
+2.039 0..1 
+2.040 0..1 
+2.041 0..1 
+2.042  
+2.043 0..1 
+2.044  
+2.045  
+2.046  
+2.047 3 
+2.051  
+2.053  
+2.054  
+2.055  
+2.056  
+2.059 1 
+2.060 0..1 
+2.061 1 
+2.067 0..1 
+2.070 0..1 
+2.071 0..1 
+2.073 0..3 
+2.074 0..10 
+2.075 0..1 
+2.083  
+2.084 70..13 
+2.087 0..1 
+```
+
+#### Column: LSR
+```
+2.035  
+2.036  
+2.037 1 
+2.038 1 
+2.039 0..1 
+2.040 0..1 
+2.041 0..1 
+2.042  
+2.043 
+2.044  
+2.045  
+2.046  
+2.047  
+2.051  
+2.053  
+2.054  
+2.055  
+2.056  
+2.059 
+2.060 
+2.061 
+2.067 
+2.070 
+2.071 
+2.073 
+2.074 
+2.075 
+2.083  
+2.084 
+2.087 
+```
+
+#### Column: MAP
+```
+2.035  
+2.036  
+2.037 1 
+2.038 1 
+2.039 0..1 
+2.040 0..1 
+2.041 0..1 
+2.042  
+2.043 
+2.044  
+2.045  
+2.046  
+2.047  
+2.051  
+2.053  
+2.054  
+2.055  
+2.056  
+2.059 
+2.060 
+2.061 
+2.067 
+2.070 
+2.071 
+2.073 
+2.074 
+2.075 
+2.083  
+2.084 
+2.087 
+```
+
+#### Column: MPR
+```
+2.035  
+2.036  
+2.037 1 
+2.038 1 
+2.039 0..1 
+2.040 0..1 
+2.041 0..1 
+2.042  
+2.043 
+2.044  
+2.045  
+2.046  
+2.047  
+2.051  
+2.053  
+2.054  
+2.055  
+2.056  
+2.059 
+2.060 
+2.061 
+2.067 
+2.070 
+2.071 
+2.073 
+2.074 
+2.075 
+2.083  
+2.084 
+2.087 
+```
+
+#### Column: NFUE
+```
+2.035  
+2.036  
+2.037 
+2.038 
+2.039 
+2.040 
+2.041 
+2.042  
+2.043 
+2.044  
+2.045  
+2.046  
+2.047  
+2.051  
+2.053  
+2.054  
+2.055  
+2.056  
+2.059 
+2.060 
+2.061 
+2.067 
+2.070 
+2.071 
+2.073 
+2.074 
+2.075 
+2.083  
+2.084 
+2.087 
+```
+
+#### Column: NFUF
+```
+2.035  
+2.036  
+2.037 
+2.038 
+2.039 
+2.040 
+2.041 
+2.042  
+2.043 
+2.044  
+2.045  
+2.046  
+2.047  
+2.051  
+2.053  
+2.054  
+2.055  
+2.056  
+2.059 
+2.060 
+2.061 
+2.067 
+2.070 
+2.071 
+2.073 
+2.074 
+2.075 
+2.083  
+2.084 
+2.087 
+```
+
+#### Column: NNDR
+```
+2.035  
+2.036  
+2.037 
+2.038 
+2.039 
+2.040 
+2.041 
+2.042  
+2.043 
+2.044  
+2.045  
+2.046  
+2.047  
+2.051  
+2.053  
+2.054  
+2.055  
+2.056  
+2.059 
+2.060 
+2.061 
+2.067 
+2.070 
+2.071 
+2.073 
+2.074 
+2.075 
+2.083  
+2.084 
+2.087 
+```
+
+#### Column: RPIS
+```
+2.035  
+2.036  
+2.037 
+2.038 
+2.039 
+2.040 
+2.041 
+2.042  
+2.043 
+2.044  
+2.045  
+2.046  
+2.047  
+2.051  
+2.053  
+2.054  
+2.055  
+2.056  
+2.059 
+2.060 
+2.061 
+2.067 
+2.070 
+2.071 
+2.073 
+2.074 
+2.075 
+2.083  
+2.084 
+2.087 
+```
+
+#### Column: RPISR
+```
+2.035  
+2.036  
+2.037 
+2.038 
+2.039 
+2.040 
+2.041 
+2.042  
+2.043 
+2.044  
+2.045  
+2.046  
+2.047  
+2.051  
+2.053  
+2.054  
+2.055  
+2.056  
+2.059 
+2.060 
+2.061 
+2.067 
+2.070 
+2.071 
+2.073 
+2.074 
+2.075 
+2.083  
+2.084 
+2.087 
+```
+
+#### Column: SRE
+```
+2.035  
+2.036  
+2.037 
+2.038 
+2.039 
+2.040 
+2.041 
+2.042  
+2.043 
+2.044  
+2.045  
+2.046  
+2.047  
+2.051  
+2.053  
+2.054  
+2.055  
+2.056  
+2.059 
+2.060 
+2.061 
+2.067 
+2.070 
+2.071 
+2.073 
+2.074 
+2.075 
+2.083  
+2.084 
+2.087 
+```
+Title: FBI CJIS/NGI EBTS Table
+Summary: Minimum/Maximum Occurrences of Each Element for Each Logical Record Type.
+
+Type: IIDS
+
+2.088 NOT is 0..1
+2.096 RPR is 0..1
+2.098 NDR is 0..10
+2.2007 SDOB is 0..1
+2.2008 SNAM is 0..1
+2.2015 RBXD is 0..1
+2.2018 DNAC is 0..1
+2.2020 RBR is 0..9
+2.2021 IFS
+2.2023 SII is 0..1
+2.2030 PPD is 0..10
+2.2031 BIA is 0..1
+2.2035 EVI is 0..1
+2.2037 ESI is 0..1
+2.2040 RBT is 0..40
+2.2046 TLI
+2.2048 RBSI is 0..1
+2.2049 RBTD is 0..1
+2.2051 HNOTI
+2.2054 RBSD is 0..1
+2.2061 BIE is 0..36
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2067 RBDI is 0..1
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1
+2.2072 POC
+2.2105 FID-1
+
+Type: LFS
+
+2.088 NOT is 1
+2.096 RPR is 0..1
+2.098 NDR is 0..10
+2.2015 RBXD is 0..1
+2.2020 RBR is 0..9
+2.2023 SII is 0..1
+2.2031 BIA is 0..1
+2.2035 EVI is 0..1
+2.2037 ESI is 0..1
+2.2040 RBT is 0..40
+2.2048 RBSI is 0..1
+2.2049 RBTD is 0..1
+2.2054 RBSD is 0..1
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1
+
+Type: LSR
+
+2.088 NOT is 0..1
+2.096 RPR is 0..1
+2.098 NDR is 0..10
+2.2015 RBXD is 0..1
+2.2020 RBR is 0..9
+2.2023 SII is 0..1
+2.2031 BIA is 0..1
+2.2037 ESI is 0..1
+2.2040 RBT is 0..40
+2.2048 RBSI is 0..1
+2.2049 RBTD is 0..1
+2.2054 RBSD is 0..1
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1
+
+Type: MAP
+
+2.088 NOT is 0..1
+2.096 RPR is 0..1
+2.098 NDR is 0..10
+2.2015 RBXD is 0..1
+2.2020 RBR is 0..9
+2.2023 SII is 0..1
+2.2031 BIA is 0..1
+2.2037 ESI is 0..1
+2.2040 RBT is 0..40
+2.2048 RBSI is 0..1
+2.2049 RBTD is 0..1
+2.2054 RBSD is 0..1
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1
+
+Type: MPR
+
+2.088 NOT is 0..1
+2.096 RPR is 0..1
+2.098 NDR is 0..10
+2.2015 RBXD is 0..1
+2.2020 RBR is 0..9
+2.2023 SII is 0..1
+2.2031 BIA is 0..1
+2.2037 ESI is 0..1
+2.2040 RBT is 0..40
+2.2048 RBSI is 0..1
+2.2049 RBTD is 0..1
+2.2054 RBSD is 0..1
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1
+
+Type: NFUE
+
+2.096 RPR is 0..1
+2.098 NDR is 0..10
+2.2015 RBXD is 0..1
+2.2020 RBR is 0..9
+2.2023 SII is 0..1
+2.2031 BIA is 0..1
+2.2037 ESI is 0..1
+2.2040 RBT is 0..40
+2.2048 RBSI is 0..1
+2.2049 RBTD is 0..1
+2.2054 RBSD is 0..1
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1
+
+Type: NFUF
+
+2.096 RPR is 0..1
+2.098 NDR is 1..10
+2.2015 RBXD is 0..1
+2.2020 RBR is 0..9
+2.2023 SII is 0..1
+2.2031 BIA is 0..1
+2.2037 ESI is 0..1
+2.2040 RBT is 0..40
+2.2048 RBSI is 0..1
+2.2049 RBTD is 0..1
+2.2054 RBSD is 0..1
+2.2062 RBNF is 0..1
+2.2063 RBOO is 0..1
+2.2064 RBUD is 0..10
+2.2065 RBC is 0..1
+2.2070 RBATN is 0..1
+2.2071 RBST is 0..1
+
+Type: NNDR
+
+2.096 RPR is 0..1
+2.2015 RBXD is 0..1
+2.2020 RBR is 0..9
+2.2023 SII is 0..1
+2.2037 ESI is 0..1
+
+Type: RPIS
+
+2.096 RPR is 0..1
+2.2015 RBXD is 0..1
+2.2020 RBR is 0..9
+2.2023 SII is 0..1
+2.2037 ESI is 0..1
+
+Type: RPISR
+
+2.088 NOT is 0..1
+2.096 RPR is 0..1
+2.2015 RBXD is 0..1
+2.2020 RBR is 0..9
+2.2023 SII is 0..1
+2.2037 ESI is 0..1
+
+Type: SRE
+
+2.096 RPR is 0..1
+2.2015 RBXD is 0..1
+2.2023 SII is 0..1
+2.2037 ESI is 0..1
+**Title: APPENDIX D - REFERENCE NOTES**
+*Summary: Specifies mandatory requirements and conditions for various fields in CJIS/NGI submissions.*
+
+Type: FBI CJIS/NGI EBTS
+1. This field must contain a "Y" for this transaction.
+2. DOO portion is optional, but ASL is required when RET = "YY".
+3. Mandatory for applicant submissions from DIS and OPM.
+4. Name and Date of Birth must be submitted formatted for Unknown Deceased and Amnesia victims.
+5. FBI number must be present if known for inquiry prints.
+6. Field is mandatory if fingerprint submission is from an NFF State.
+7. Mandatory if any finger is amputated or a rolled impression was not made.
+8. UCN may be returned depending on transaction results; no FBI number returned for Non-Identification with RET = "N".
+9. This field will be returned in response if subject identification is made.
+10. Field is optional unless Identification is made and subject criminal history was requested.
+11. CDD and CCT are mandatory fields for this TOT.
