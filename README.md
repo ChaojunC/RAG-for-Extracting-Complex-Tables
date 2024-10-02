@@ -1,4 +1,4 @@
-# IDEMIA Take Home Assignment - RAG
+# RAG for Extracting Complex Tables
 
 ### Objective
 Create a Python pipeline that demonstrates document processing capabilities, focusing on ingesting PDF documents containing tables and integrating them with a Large Language Model (LLM) for query-based information retrieval.
