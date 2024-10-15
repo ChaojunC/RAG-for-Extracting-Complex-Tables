@@ -2,8 +2,7 @@ import PyPDF2
 import openai
 import os
 
-# Replace with your OpenAI API key and model
-openai.api_key = "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"
+openai.api_key = "" # Replace with your OpenAI API key and model
 my_ai_model = "gpt-4o"
 
 pdf_file = "/content/Complex_table_variant_3_rotated.pdf"
